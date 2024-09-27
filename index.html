@@ -3,95 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First HTML Page</title>
-<style>
-table, th, td{
- border:1px solid white;
- border-collapse: collapse;
-}
-
-body {
-background-image: url('https://hips.hearstapps.com/hmg-prod/images/melotte-15-star-cluster-royalty-free-image-1689365527.jpg');
-background-repeat: no-repeat;
-}
-
-footer {
-  background-color: #777;
-  padding: 10px;
-  text-align: center;
-  color: white;
-}
-
-.word {
-  background-color: red;
-  color: white;
-  border: 2px solid black;
-  margin: 6px;
-  padding: 3px;
-}
-
-.city {
-  background-color: pink;
-  color: purple;
-  border: 2px solid black;
-  margin: 2px;
-  padding: 3px;
-}
-
-.main {
-text-align: center;
-}
-
-.book {
-  background-color: lightgreen;
-  color: white;
-  border: 2px solid black;
-  margin: 5px;
-  padding: 3px;
-}
-
-.thing {
-  background-color: orange;
-  color: white;
-  border: 2px solid black;
-  margin: 5px;
-  padding: 3px;
-}
-
-</style>
+    <title>PLANT JEW</title>
+    <link rel="stylesheet" href="index.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head><body>
-<h1 style="color:powderblue;"><b>Welcome<sup> to</sup><sub>Page</sub></b></h1>
-<p style="background-color: white;"> _ </p>
-<div style="background-color:black;color:#FFF4A3;padding:20px;">
-<small>the tools are software applications that use machine learning to perform specific tasks. These tools adapt to data, learn from it, and simulate human decision-making processes. You might already be familiar with some AI tools like <a href="https://www.google.co.in/">Google</a> Assistant, Siri, Amazon Alexa, Google <a href="https://elephant.in/knowledge-center/wp-content/uploads/2024/03/Top-5-Bugatti-Cars-0-01-scaled.jpg"target="iframe_a">images</a>
-, Netflix recommendations, or Zoom.These examples demonstrate how AI can make everyday tasks more convenient and efficient.</small></div>
+<div class="wrapper">
+  <from action="">
+    <h1><p>login</p></h1>
 
-<h2 class="city main">{AI.tool}</h2>
-<p id="demo"></p>
+    <div class="input-box">
+      <input tyoe="text" placeholder="email or number" required>
+      <i class='bx bxs-user'></i>
+    </div>
 
-<iframe src="https://i.pinimg.com/736x/89/a7/e6/89a7e6be72ed57d0b14f86a4aea7eeee.jpg" width="101%" title="Iframe Example"></iframe>
+    <div class="input-box">
+      <input tyoe="text" placeholder="password" required>
+      <i class='bx bxs-lock-alt'></i>
+    </div>
 
-<h3 class="city"><div class="word">
-<a href="https://www.w3schools.com/"
-target="_blank">1.__W3Schools__</a></div></h3>
+    <div class="remember-forgot">
+      <lable><input type="checkbox">remember me</lable>
+    <a href="#">forgot password!</a>
+    </div>
 
-<h3 class="city"><div class="book">
-<a href="https://chatgpt.com/"
-target="_blank">2.__AI.chatbots_</a></div></h3>
+    <button type="submit" class="btn">login</button>
+   <div class="register-link">
+    <p>Don't have an account
+      <a href="#">New Register</a>
+    </p>
+   </div>
 
-<h3 class="city"><div class="thing">
-<a href="https://www.grammarly.com/"
-target="_blank">3.__AI.grammarly_</a></div></h3>
-
-<script>
-function myFunction() {
-  var x = document.getElementsByClassName("city");
-  for (var i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
-  }
-}
-</script>
-
-<footer><p>footer.</p></footer>
+  </from>
+</div>
 </body>
 </html>
